@@ -10,7 +10,7 @@ public class APLine
     return (double) -a/b;
   }
 
-  public int isOnLine(int xValue, int yValue) {
+  public boolean isOnLine(int xValue, int yValue) {
     if (a*xValue + b*yValue + c == 0) return true;
     return false;
   }
